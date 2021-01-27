@@ -1,0 +1,13 @@
+ <mat-card color="warn" style="color: azure;">
+     <mat-card-header>
+             <mat-card-title> {{introData.chapterName}} </mat-card-title>
+             <mat-card-title> {{introData.chapterTitle}} </mat-card-title>
+            <mat-card-subtitle> {{introData.chapterTitleEn}} </mat-card-subtitle>
+     </mat-card-header>
+     <img matCardImage [src]="introData.photoUrl">
+     <mat-card-content>
+         <p style="color: azure; font-size: 15px;">
+             {{introData.title}}
+         </p>
+     </mat-card-content>
+ </mat-card>

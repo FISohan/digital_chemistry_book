@@ -1,0 +1,9 @@
+<!-- <div class="chapter-list">
+<mat-nav-list *ngFor="let route of router" >
+    <mat-list-item>
+        <a matLine routerLink="{{route.link}}"> {{route.name}} </a>
+    </mat-list-item>
+</mat-nav-list>
+</div> -->
+<app-nav-list [route]="router"></app-nav-list>
+<router-outlet></router-outlet>

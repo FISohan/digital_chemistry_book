@@ -1,0 +1,7 @@
+<div class="chapter-list">
+<mat-nav-list *ngFor="let route of route" >
+    <mat-list-item>
+        <a matLine routerLink="{{route.link}}"> {{route.name}} </a>
+    </mat-list-item>
+</mat-nav-list>
+</div>
